@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/tgbot
+    password: 123
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+server:
+  port: 8081
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+
+
