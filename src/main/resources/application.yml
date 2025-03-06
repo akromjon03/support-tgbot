@@ -1,11 +1,14 @@
 spring:
   datasource:
-    url: ${DATABASE_URL}
+    url: postgresql://postgres:@shinkansen.proxy.rlwy.net:34247/railway
+    username: postgres
+    password: isDxDpOjfYApZcTKapqicEInmtlbeCWj
     driver-class-name: org.postgresql.Driver
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: update
+
 
 
 
